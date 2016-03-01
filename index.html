@@ -11,24 +11,25 @@
 </head>
 <body>
 	<h1>Biology Lab Quiz 1</h1>
-	<h2><div class="question_number">1 of 6</div>
+	<h2><div class="question_number"><span class = "questionNumber">1</span> of 6</div>
 	<div id="question_wrapper">
-			<p class="test"></p>
-			<input type="radio" name="option" class="option" value="0"><span class="answer">Cell</span>
-			<input type="radio" name="option" class="option" value="0"><span class="answer">Body</span>
-			<input type="radio" name="option" class="option" value="0"><span class="answer">Organ</span>
-			<input type="radio" name="option" class="option" value="0"><span class="answer">Tissue</span>
-	
+			<p class="question"></p>
+			<form id="selections">
+				<input type="radio" name="option" class="radio-1"><span class="answer-1"></span>
+				<input type="radio" name="option" class="radio-2"><span class="answer-2"></span>
+				<input type="radio" name="option" class="radio-3"><span class="answer-3"></span>
+				<input type="radio" name="option" class="radio-4"><span class="answer-4"></span>
+			</form>
 		<div id="button_holder">
 			<input type="button" id="submit" value="Submit Answer"><span id="hint"></span>
 		</div>
 	<div id = "gradeScale">
 		<ul id= "user_Grade">
-			<li class=gradeA>A</li>
-			<li class=gradeB>B</li>
-			<li class=gradeC>C</li>
-			<li class=gradeD>D</li>
-			<li class=gradeF>F</li>
+			<li class="gradeA">A</li>
+			<li class="gradeB">B</li>
+			<li class="gradeC">C</li>
+			<li class="gradeD">D</li>
+			<li class="gradeF">F</li>
 	</div>
 	</div>
 </body>
